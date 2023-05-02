@@ -1,0 +1,50 @@
+.reveal {
+    background-image: url(./img/font-inverted-light.png);
+    background-size: cover!important;
+    background-position: center!important
+}
+
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.reveal h1,
+#title-slide {
+    color: white!important;
+    /*text-transform: uppercase!important;*/
+    font-weight: 400;
+    font-family: 'Yanone Kaffeesatz';
+}
+
+h2,
+h3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif!important;
+    /*text-transform: uppercase!important;*/
+    font-weight: 400!important;
+}
+
+h2 {
+    color: #47c7ec!important;
+    font-size: 2em!important;
+}
+
+h3 {
+    color: #DE633C!important;
+    font-size: 1.5em!important;
+}
+
+li>h3::marker {
+    content: "";
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}

@@ -1,0 +1,238 @@
+---
+title: "MEETUP R NANTES"
+subtitle: "Améliorez le partage de votre travail avec R en suivant les bonnes pratiques de développement depuis un simple notebook avec {fusen}"
+author: "Sébastien Rochette, ThinkR"
+format:
+  revealjs: 
+    theme: [ext/custom.scss]
+    logo: ext/img/thinkr_logo.png
+    css: ext/custom.css
+    footer: Nuit des Meetup - Meetup R Nantes - @statnmap
+    incremental: false   
+    width: 1024
+title-slide-attributes:
+  data-background-image: ext/img/font.png 
+execute:
+  keep-md: true
+include-after-body:
+  - ext/script/orange.html
+---
+
+## Sébastien <img src="img/logo.png" width="300" align="right">
+
+Responsable de production, ThinkR 
+
++ Site web ThinkR : <https://thinkr.fr>
++ GitHub ThinkR : <https://github.com/ThinkR-open>
++ Fosstodon ThinkR : [@thinkr@fosstodon.org](https://fosstodon.org/@thinkr) 
++ Site web perso : <https://statnmap.com>
++ Mastodon perso : [@statnmap@mastodon.social](https://mastodon.social/@statnmap) 
+
+
+---
+
+## Pourquoi partager et documenter son code ?
+
+:::: {.columns}
+
+::: {.column width="30%"}
+- Collaboration
+- Réutilisation
+- Transparence
+- Formation
+- Crédibilité
+:::
+
+::: {.column width="70%"}
+![](img/auto-document.png) 
+:::
+
+::::
+
+
+::: {.notes}
+- Collaboration : Si vous travaillez en équipe, partager votre code permet à vos collègues de travailler plus efficacement avec vous. Ils peuvent voir ce que vous avez fait, comprendre votre raisonnement et apporter leurs propres idées.
+
+- Réutilisation : En partageant votre code, vous pouvez aider les autres à résoudre des problèmes similaires. Votre code peut servir de point de départ pour d'autres projets et économiser beaucoup de temps et d'efforts.
+
+- Transparence : En documentant votre code, vous rendez votre travail plus transparent et vous vous assurez que tout le monde peut comprendre ce que vous avez fait. Cela peut être important si vous travaillez dans un environnement réglementé où la transparence est essentielle.
+
+- Formation : La documentation de votre code peut être une ressource précieuse pour la formation des nouveaux employés ou pour aider les autres membres de votre équipe à comprendre votre travail.
+
+- Crédibilité : En partageant votre code et en le documentant, vous montrez que vous êtes un professionnel sérieux et crédible dans votre domaine. Cela peut être important pour votre réputation professionnelle et peut vous aider à trouver de nouveaux clients ou des opportunités de carrière.
+::: 
+
+---
+
+## Et si on le partageait avec une doc lisible ?
+
+- Notebook
+- Texte en français / anglais en toutes lettres
+- Sortie HTML
+- Partage avec une URL
+
+::: {.notes}
+On présente du code et du texte.
+Du vrai texte, pas juste des commentaires qui paraphrasent le code
+La sortie HTML permet d'avoir un lien partageable, et une page lisible
+:::
+
+
+---
+
+## Et si on structurait cette documentation ?
+
+- La présentation générale et l'enchainement des scripts
+- L'usage indépendant des scripts et fonctions
+- Comment installer avec quelles dépendances 
+- Quelle modifications depuis la dernière fois
+
+::: {.column width="25%"}
+:::
+::: {.column width="50%"}
+![](img/fusen_pkgdown_website.png) 
+::: 
+
+::: {.notes}
+Vous avez reconnu cette page web ? C'est un site {pkgdown}.  
+Ça veut dire qu'il faut savoir faire un package ?
+:::
+
+
+---
+
+## Il faut vraiment faire un package ?
+
+::: {.column width="20%"}
+:::
+::: {.column width="60%"}
+![](img/packages_everywhere.png) 
+::: 
+
+---
+
+## Il faut vraiment faire un package ?
+
+### Vous créez déjà des packages !
+
+::: {.notes}
+Vous créez probablement déjà des packages sans vous en rendre compte, {fusen} vous aide simplement à les structurer correctement et à les partager plus facilement.
+
+
+Vous êtes-vous déjà retrouvé dans une situation où vous souhaitez partager votre code R avec vos collègues, mais cela devient rapidement compliqué ?
+Vous n'êtes pas seul ! Heureusement, il existe des outils pour simplifier ce processus, tels que {fusen}.
+Dans cette présentation, nous allons voir comment {fusen} peut vous aider à partager facilement votre travail R.
+
+Mème de "Jackie Chan wtf" : "Code R compliqué ? {fusen} vous aide !"
+:::
+
+---
+
+## Transformez votre code R en un package R prêt à être partagé avec {fusen}
+
+::: {.notes}
+
+{fusen} est un outil qui vous permet de transformer votre code R en un package R prêt à être partagé.
+
+
+Mème de "DJ Khaled" : "Transformez votre code R avec {fusen} !"
+
+:::
+
+---
+
+## Vous créez déjà des packages R sans vous en rendre compte - {fusen} vous aide simplement à les structurer correctement
+
+::: {.notes}
+
+Ce que vous faites déjà :
+En créant des fonctions et des scripts R, vous êtes déjà en train de construire un package.
+Vous utilisez probablement également des packages créés par d'autres personnes.
+En ajoutant une documentation adéquate, vous pouvez créer un package prêt à être partagé.
+
+
+Mème de "Leonardo Dicaprio Cheers" : "Vous créez déjà des packages R mais vous ne le savez pas !"
+:::
+
+---
+
+## Optimisez votre partage de code R avec {fusen} - organisez votre code de manière plus claire et gérez les dépendances plus facilement
+
+::: {.notes}
+
+Ce que {fusen} peut ajouter :
+{fusen} vous facilite la tâche en organisant votre code de manière plus claire et en vous aidant à gérer les dépendances.
+Il vous aide également à ajouter une documentation adéquate, en créant un README par exemple.
+
+Mème de "Spongebob Squarepants" : "Optimisez votre partage de code R avec {fusen} !"
+:::
+
+---
+
+## Économisez du temps et facilitez la collaboration avec {fusen} - votre code sera plus clair et plus facile à comprendre pour vos collègues
+
+::: {.notes}
+
+Pourquoi utiliser {fusen} ?
+{fusen} peut vous aider à économiser du temps et à réduire les erreurs de partage de code.
+Il facilite également la collaboration avec vos collègues en leur offrant un code plus clair et facile à comprendre.
+
+Mème de "John Travolta Confused" : "Facilitez la collaboration avec {fusen} !"
+:::
+
+---
+
+## Le partage de code est essentiel pour le succès de votre entreprise - utilisez {fusen} pour simplifier votre processus de partage de code R
+
+::: {.notes}
+
+Conclusion:
+En utilisant {fusen}, vous pouvez simplifier le partage de votre travail R.
+Vous êtes déjà en train de créer des packages sans vous en rendre compte, {fusen} vous aide simplement à les organiser correctement.
+N'oubliez pas que le partage de code est important et peut aider votre entreprise à réussir !
+
+Mème de "Leonardo Dicaprio Cheers" : "Simplifiez votre partage de code R avec {fusen} !"
+:::
+
+---
+
+## Meetup R Nantes : partagez vos expériences avec R !
+
+::: {.notes}
+
+Le groupe Meetup R Nantes est une communauté ouverte à tous, passionnés de R ou simplement curieux, qui souhaite partager leurs expériences avec le langage R et discuter de ses nombreux usages : visualisation de données, analyses reproductibles, statistiques, machine learning, création de packages, applications Shiny, infrastructures serveurs, et bien plus encore !
+:::
+
+---
+
+## Organisation des Meetup R Nantes
+
+::: {.notes}
+
+Le groupe R Nantes organise des séances tous les mois, plutôt le mardi soir, avec deux présentations à chaque séance : une présentation de 20-30 minutes sur un sujet plutôt orienté vers un public débutant, et une présentation de 10-15 minutes sur un sujet plutôt orienté utilisateurs avancés. Ensuite, il y a une heure d'échange pour discuter et poser des questions.
+
+:::
+
+---
+
+## Proposition de contenus
+
+::: {.notes}
+
+Les échanges concernant les contenus et les propositions de contenus se déroulent dans les issues de ce projet GitHub : https://github.com/r-nantes/meetups. Les discussions sur l'organisation et pendant les présentations se feront sur Slack, dans le groupe francophone "Grrr", canal #meetup_r_nantes.
+:::
+
+---
+
+## Code de conduite
+
+::: {.notes}
+
+Pour garantir un comportement respectueux et bienveillant envers tous les membres du groupe, nous avons mis en place un code de conduite que chaque participant.e est invité.e à adopter. Celui-ci inclut, entre autres, de s'exprimer de façon courtoise, de respecter le matériel mis à disposition, de s'interdire toute forme de discrimination et de respecter la propriété intellectuelle des contenus présentés.
+:::
+
+---
+
+## Merci d'avoir assisté à notre présentation
+
+Je reste disponible pour vos questions
