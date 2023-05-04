@@ -1,13 +1,13 @@
 ---
 title: "MEETUP R NANTES"
 subtitle: "Améliorez le partage de votre travail avec R en suivant les bonnes pratiques de développement depuis un simple notebook avec {fusen}"
-author: "Swann Floc'hlay, ThinkR"
+author: "Swann Floc'hlay, ThinkR  -  Marion Louveaux, Opendatasoft"
 format:
   revealjs: 
     theme: [ext/custom.scss]
     logo: ext/img/thinkr_logo.png
     css: ext/custom.css
-    footer: Nuit des Meetup - Meetup R Nantes - @statnmap
+    footer: Nuit des Meetup - Meetup R Nantes
     incremental: false   
     width: 1024
 title-slide-attributes:
@@ -18,16 +18,34 @@ include-after-body:
   - ext/script/orange.html
 ---
 
-## Sébastien <img src="img/logo.png" width="300" align="right">
+## Déroulé
 
-Responsable de production, ThinkR 
+* Un exemple de présentation du MeetUpR Nantes _Swann_
+* Le MeetUpR Nantes, c'est quoi ? _Marion_
+---
+
+## Swann Floc'hlay<img src="img/logo.png" width="300" align="right">
+
+Dev & formatrice, ThinkR 
 
 + Site web ThinkR : <https://thinkr.fr>
 + GitHub ThinkR : <https://github.com/ThinkR-open>
 + Fosstodon ThinkR : [@thinkr@fosstodon.org](https://fosstodon.org/@thinkr) 
-+ Site web perso : <https://statnmap.com>
-+ Mastodon perso : [@statnmap@mastodon.social](https://mastodon.social/@statnmap) 
 
+---
+
+## Marion Louveaux<img src="img/Logo-Black.png" width="300" align="right">
+
+Ingénieure Solutions, Opendatasoft
+
++ Site web Opendatasoft : <https://opendatasoft.com>
++ Twitter Opendatasoft : [@opendatasoft_fr](https://twitter.com/opendatasoft_fr)
++ Site web perso : <https://marionlouveaux.fr>
++ GitHub perso : <https://github.com/marionlouveaux/>
+
+---
+
+## Améliorez le partage de votre travail avec R en suivant les bonnes pratiques de développement depuis un simple notebook avec {fusen}
 
 ---
 
@@ -84,8 +102,8 @@ La sortie HTML permet d'avoir un lien partageable, et une page lisible
 
 - La présentation générale et l'enchainement des scripts
 - L'usage indépendant des scripts et fonctions
-- Comment installer avec quelles dépendances 
-- Quelle modifications depuis la dernière fois
+- Les dépendances et l'installation
+- Les modifications depuis la dernière fois
 
 ::: {.column width="25%"}
 :::
@@ -115,9 +133,7 @@ Vous avez reconnu cette page web ? C'est un site {pkgdown}.
 
 ### Vous créez déjà des packages !
 
-::: {.column width="30%"}
-![](img/fusen_logo.png)
-:::
+![](img/fusen_logo.png){width=30%, fig-align="center"}
 
 ::: {.notes}
 Vous créez probablement déjà des packages sans vous en rendre compte, {fusen} vous aide simplement à les structurer correctement et à les partager plus facilement.
@@ -185,7 +201,7 @@ Mème de "John Travolta Confused" : "Facilitez la collaboration avec {fusen} !"
 
 ## Quick demo
 
-[gif d'inflate]
+![](img/inflate_fusen.gif)
 
 ::: {.notes}
 
@@ -199,18 +215,29 @@ Mème de "Leonardo Dicaprio Cheers" : "Simplifiez votre partage de code R avec {
 
 ---
 
+## Quick demo
+
+![](img/dir_tree.png)
+
+---
+
 ## Meetup R Nantes : partagez vos expériences avec R !
+
+---
+
+## Meetup R Nantes
+
+* une communauté ouverte à tous, passionnés de R ou simplement curieux
+* des séances d'environ 2h tous les mois (mardi soir, alternant présentiel et visio), subvention du Rconsortium 
+* deux présentations par session : une débutant et une plus avancée
+
+>  Visualisation de données, analyses reproductibles, statistiques, machine learning, création de packages, applications Shiny, infrastructures serveurs...
+
 
 ::: {.notes}
 
 Le groupe Meetup R Nantes est une communauté ouverte à tous, passionnés de R ou simplement curieux, qui souhaite partager leurs expériences avec le langage R et discuter de ses nombreux usages : visualisation de données, analyses reproductibles, statistiques, machine learning, création de packages, applications Shiny, infrastructures serveurs, et bien plus encore !
-:::
 
----
-
-## Organisation des Meetup R Nantes
-
-::: {.notes}
 
 Le groupe R Nantes organise des séances tous les mois, plutôt le mardi soir, avec deux présentations à chaque séance : une présentation de 20-30 minutes sur un sujet plutôt orienté vers un public débutant, et une présentation de 10-15 minutes sur un sujet plutôt orienté utilisateurs avancés. Ensuite, il y a une heure d'échange pour discuter et poser des questions.
 
@@ -218,18 +245,19 @@ Le groupe R Nantes organise des séances tous les mois, plutôt le mardi soir, a
 
 ---
 
-## Proposition de contenus
+## Meetup R Nantes
+
+* https://github.com/r-nantes/meetups 
+* Groupe Slack "Grrr", canal #meetup_r_nantes
+* Code de conduite
+
+
+
 
 ::: {.notes}
 
 Les échanges concernant les contenus et les propositions de contenus se déroulent dans les issues de ce projet GitHub : https://github.com/r-nantes/meetups. Les discussions sur l'organisation et pendant les présentations se feront sur Slack, dans le groupe francophone "Grrr", canal #meetup_r_nantes.
-:::
 
----
-
-## Code de conduite
-
-::: {.notes}
 
 Pour garantir un comportement respectueux et bienveillant envers tous les membres du groupe, nous avons mis en place un code de conduite que chaque participant.e est invité.e à adopter. Celui-ci inclut, entre autres, de s'exprimer de façon courtoise, de respecter le matériel mis à disposition, de s'interdire toute forme de discrimination et de respecter la propriété intellectuelle des contenus présentés.
 :::
@@ -238,4 +266,4 @@ Pour garantir un comportement respectueux et bienveillant envers tous les membre
 
 ## Merci d'avoir assisté à notre présentation
 
-Je reste disponible pour vos questions
+Des questions ?
